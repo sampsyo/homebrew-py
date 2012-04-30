@@ -2,9 +2,15 @@ homebrew-py
 -----------
 
 This is a [Homebrew][] tap containing some (Python-related) formulae that can't
-be easily built with [pip][]. At the moment, it just consists of the
-[Python gstreamer bindings][pygst] package.
+be easily built with [pip][].
 
+The packages are:
+
+* python-gst: [Python gstreamer bindings][pygst]
+* PySyck: [Python bindings][pysyck] for \_why's [fast YAML parser][syck]
+
+[pysyck]: http://pyyaml.org/wiki/PySyck
+[syck]: https://github.com/indeyets/syck
 [pip]: http://www.pip-installer.org/
 [pygst]: http://pygstdocs.berlios.de/
 [Homebrew]: https://github.com/mxcl/homebrew/
